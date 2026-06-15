@@ -29,10 +29,6 @@ BR-Resampling/
     table_reference_method_counts.csv
     table_rmse.csv
     table_runtime.csv
-    summary_by_distribution.csv
-    summary_by_regime.csv
-    summary_manuscript.csv
-    summary_overall.csv
   results/
     wilcoxon/
       raw_data.csv
@@ -64,12 +60,12 @@ BR-Resampling/
     summary metrics by distribution and regime.
   - `table_allocation_space_summary.csv`, `table_design_diagnostics.csv`,
     `table_reference_method_counts.csv`: allocation-space and BR support diagnostics.
-  - `summary_by_distribution.csv`, `summary_by_regime.csv`,
-    `summary_manuscript.csv`, `summary_overall.csv`: Wilcoxon robustness summaries.
+  - 
 
 - **`results/wilcoxon/`** – replicate-level Wilcoxon outputs and diagnostics:
   - `raw_data.csv`: replicate-level p-values and indicators for BR, MC, BA, and the benchmark.
-  - `summary_*`: Wilcoxon summaries mirroring those in `data/`.
+  - `summary_by_distribution.csv`, `summary_by_regime.csv`,
+    `summary_manuscript.csv`, `summary_overall.csv`: Wilcoxon robustness summaries.
   - `design_diagnostics.csv`: BR support sizes and regime information.
   - `runtime.txt`: runtime and configuration log for the Wilcoxon long run.
 
