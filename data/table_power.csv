@@ -1,0 +1,16 @@
+dist,regime,BR,MC,BA,N_replicates
+normal,small,0.1,0.125,0,200
+normal,moderate,0.24,0.23,0,200
+normal,large,0.265,0.255,0,200
+uniform,small,0.1,0.09,0,200
+uniform,moderate,0.165,0.175,0,200
+uniform,large,0.245,0.255,0,200
+exponential,small,0.22,0.215,0,200
+exponential,moderate,0.255,0.265,0,200
+exponential,large,0.36,0.36,0,200
+gamma,small,0.18,0.175,0,200
+gamma,moderate,0.235,0.23,0,200
+gamma,large,0.325,0.325,0,200
+lognormal,small,0.32,0.34,0,200
+lognormal,moderate,0.49,0.48,0,200
+lognormal,large,0.43,0.43,0,200
